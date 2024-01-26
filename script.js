@@ -42,6 +42,7 @@ function changeLanguage(language) {
 }
 function changeTheme(theme) {
   const techContainerElement = document.getElementById("tech-container");
+  const techTextElement = document.getElementById("techText");
   if (theme === "black") {
     document.getElementById("black").src = "./img/blackframeselected.png";
     document.getElementById("white").src = "./img/whiteframe.png";
@@ -51,6 +52,9 @@ function changeTheme(theme) {
     techContainerElement.classList.remove("tech-container-white");
     techContainerElement.classList.remove("tech-container-yellow");
     techContainerElement.classList.add("tech-container-black");
+    techTextElement.classList.remove("techText");
+    techTextElement.classList.remove("techText-yellow");
+    techTextElement.classList.add("techText-black");
   }
   if (theme === "white") {
     document.getElementById("white").src = "./img/whiteframeselected.png";
@@ -61,6 +65,9 @@ function changeTheme(theme) {
     techContainerElement.classList.add("tech-container-white");
     techContainerElement.classList.remove("tech-container-yellow");
     techContainerElement.classList.remove("tech-container-black");
+    techTextElement.classList.add("techText");
+    techTextElement.classList.remove("techText-yellow");
+    techTextElement.classList.remove("techText-black");
   }
   if (theme === "yellow") {
     document.getElementById("yellow").src = "./img/yellowframeselected.png";
@@ -71,5 +78,8 @@ function changeTheme(theme) {
     techContainerElement.classList.remove("tech-container-white");
     techContainerElement.classList.add("tech-container-yellow");
     techContainerElement.classList.remove("tech-container-black");
+    techTextElement.classList.remove("techText");
+    techTextElement.classList.add("techText-yellow");
+    techTextElement.classList.remove("techText-black");
   }
 }
