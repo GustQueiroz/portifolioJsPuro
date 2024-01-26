@@ -1,3 +1,18 @@
+document.getElementById("downloadIcon").addEventListener("click", function () {
+  var downloadLink = document.createElement("a");
+  downloadLink.download = "curriculo.pdf";
+  fetch("./img/curriculo.pdf")
+    .then((response) => response.blob())
+    .then((blob) => {
+      var url = window.URL.createObjectURL(blob);
+      downloadLink.href = url;
+      document.body.appendChild(downloadLink);
+      downloadLink.click();
+      document.body.removeChild(downloadLink);
+      window.URL.revokeObjectURL(url);
+    });
+});
+
 function changeLanguage(language) {
   if (language === "ENG") {
     document.querySelector(".photoMe").src = "./img/euliverpool.png";
