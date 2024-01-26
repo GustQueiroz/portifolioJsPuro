@@ -41,20 +41,26 @@ function changeLanguage(language) {
   }
 }
 function changeTheme(theme) {
-  const techContainerElement = document.getElementById("tech-container");
-  const techTextElement = document.getElementById("techText");
+  const techContainerElement = document.querySelectorAll(".tech-container");
+  const techTextElement = document.querySelectorAll(".techText");
   if (theme === "black") {
     document.getElementById("black").src = "./img/blackframeselected.png";
     document.getElementById("white").src = "./img/whiteframe.png";
     document.getElementById("yellow").src = "./img/yellowframe.png";
     document.body.classList.remove("yellow");
     document.body.classList.add("black");
-    techContainerElement.classList.remove("tech-container-white");
-    techContainerElement.classList.remove("tech-container-yellow");
-    techContainerElement.classList.add("tech-container-black");
-    techTextElement.classList.remove("techText");
-    techTextElement.classList.remove("techText-yellow");
-    techTextElement.classList.add("techText-black");
+
+    for (var i = 0; i < techContainerElement.length; i++) {
+      techContainerElement[i].classList.remove("tech-container-white");
+      techContainerElement[i].classList.remove("tech-container-yellow");
+      techContainerElement[i].classList.add("tech-container-black");
+    }
+
+    for (var i = 0; i < techTextElement.length; i++) {
+      techTextElement[i].classList.remove("techText-white");
+      techTextElement[i].classList.remove("techText-yellow");
+      techTextElement[i].classList.add("techText-black");
+    }
   }
   if (theme === "white") {
     document.getElementById("white").src = "./img/whiteframeselected.png";
@@ -62,12 +68,18 @@ function changeTheme(theme) {
     document.getElementById("yellow").src = "./img/yellowframe.png";
     document.body.classList.remove("black");
     document.body.classList.remove("yellow");
-    techContainerElement.classList.add("tech-container-white");
-    techContainerElement.classList.remove("tech-container-yellow");
-    techContainerElement.classList.remove("tech-container-black");
-    techTextElement.classList.add("techText");
-    techTextElement.classList.remove("techText-yellow");
-    techTextElement.classList.remove("techText-black");
+
+    for (var i = 0; i < techContainerElement.length; i++) {
+      techContainerElement[i].classList.add("tech-container-white");
+      techContainerElement[i].classList.remove("tech-container-yellow");
+      techContainerElement[i].classList.remove("tech-container-black");
+    }
+
+    for (var i = 0; i < techTextElement.length; i++) {
+      techTextElement[i].classList.remove("techText-black");
+      techTextElement[i].classList.remove("techText-yellow");
+      techTextElement[i].classList.add("techText-white");
+    }
   }
   if (theme === "yellow") {
     document.getElementById("yellow").src = "./img/yellowframeselected.png";
@@ -75,11 +87,17 @@ function changeTheme(theme) {
     document.getElementById("black").src = "./img/blackframe.png";
     document.body.classList.remove("black");
     document.body.classList.add("yellow");
-    techContainerElement.classList.remove("tech-container-white");
-    techContainerElement.classList.add("tech-container-yellow");
-    techContainerElement.classList.remove("tech-container-black");
-    techTextElement.classList.remove("techText");
-    techTextElement.classList.add("techText-yellow");
-    techTextElement.classList.remove("techText-black");
+
+    for (var i = 0; i < techContainerElement.length; i++) {
+      techContainerElement[i].classList.remove("tech-container-white");
+      techContainerElement[i].classList.add("tech-container-yellow");
+      techContainerElement[i].classList.remove("tech-container-black");
+    }
+
+    for (var i = 0; i < techTextElement.length; i++) {
+      techTextElement[i].classList.remove("techText-white");
+      techTextElement[i].classList.add("techText-yellow");
+      techTextElement[i].classList.remove("techText-black");
+    }
   }
 }
