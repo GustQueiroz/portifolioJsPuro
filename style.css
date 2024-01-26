@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "poppins";
+  background-color: #dddddd;
+  color: black;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #dddddd;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #cfcfcf;
+}
+
+body.black {
+  background-color: #303030;
+  color: white;
+}
+body.yellow {
+  background-color: #d6cf2b;
+  color: #1680b4;
+}
+
+.header-container {
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+}
+.color-container {
+  width: 150px;
+  margin-left: 8px;
+}
+.color-theme-text {
+  font-size: 20px;
+  font-weight: 800;
+}
+.color-icons-container {
+  display: flex;
+}
+.color-icons {
+  padding: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.language-text {
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  justify-content: end;
+  cursor: default;
+}
+.language-text-button {
+  font-size: 14px;
+  font-weight: 500;
+}
+.language-text-button:hover {
+  color: #008dd2;
+  cursor: pointer;
+}
+.language-container {
+  margin-left: 1650px;
+  width: 50px;
+}
+
+.full-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.header-conteiner-black {
+  color: black;
+}
+.header-conteiner-white {
+  color: #eee;
+}
+.secondline-conteiner {
+  align-items: center;
+  display: flex;
+}
+.icon {
+  padding: 15px;
+  cursor: pointer;
+}
+.icon:hover {
+  margin-bottom: 30px;
+}
+
+.text {
+  font-size: 128px;
+  font-weight: 700;
+}
+.first {
+  margin-top: 300px;
+  height: 5px;
+}
+.aboutme-container {
+  margin-top: 250px;
+  cursor: default;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 100px;
+}
+.aboutme-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutme-header {
+  height: 20px;
+  font-size: 64px;
+  font-weight: 800;
+}
+.aboutme-text {
+  font-size: 32px;
+  font-weight: 700;
+  width: 760px;
+  text-align: center;
+}
+.photoMe {
+  margin-right: 70px;
+  width: 600px;
+  height: 600px;
+}
+.technologies-container {
+  width: 100vh;
+  margin-left: 250px;
+  margin-top: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.technologies-text {
+  width: 100vh;
+  margin-left: 280px;
+  font-size: 64px;
+}
+
+.techIcon {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+}
+
+.tech-icon-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.techText {
+  margin-right: 20px;
+  color: white;
+  margin-left: 20px;
+}
+.techText-yellow {
+  margin-right: 20px;
+  color: #d6cf2b;
+  margin-left: 20px;
+}
+.techText-black {
+  margin-right: 20px;
+  color: #303030;
+  margin-left: 20px;
+}
+
+.tech-container-white {
+  margin-left: 50px;
+  background-color: #303030;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 400px;
+  height: 140px;
+}
+.tech-container-black {
+  margin-left: 50px;
+  background-color: #fff;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 400px;
+  height: 140px;
+}
+.tech-container-yellow {
+  margin-left: 50px;
+  background-color: #1680b4;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 400px;
+  height: 140px;
+}
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 300px;
+}
