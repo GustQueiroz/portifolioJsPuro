@@ -102,7 +102,6 @@ body.yellow {
 .icon:hover {
   margin-bottom: 1.5rem;
 }
-
 .text {
   font-size: 128px;
   font-weight: 700;
@@ -220,4 +219,149 @@ body.yellow {
   justify-content: center;
   margin-top: 16rem;
   margin-left: 30rem;
+}
+@media screen and (max-width: 1440px) {
+  .color-container {
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  .language-container {
+    margin-top: 2rem;
+    margin-left: 50rem;
+  }
+  .text {
+    margin-right: 15rem;
+    font-size: 84px;
+    font-weight: 700;
+  }
+  .aboutme-header {
+    font-size: 48px;
+  }
+  .aboutme-text {
+    font-size: 20px;
+    width: 36rem;
+  }
+  .photoMe {
+    width: 28rem;
+    height: 28rem;
+  }
+  .tech-container-white {
+    margin-left: 3rem;
+    width: 17rem;
+  }
+  .tech-container-black {
+    margin-left: 3rem;
+    width: 17rem;
+  }
+  .tech-container-yellow {
+    margin-left: 3rem;
+    width: 17rem;
+  }
+  .technologies-container {
+    margin-top: 10rem;
+  }
+  .technologies-text {
+    margin-left: 5rem;
+  }
+  .techIcon {
+    width: 4rem;
+    height: 4rem;
+  }
+  .tech-icon-container {
+    margin-top: 3rem;
+  }
+  .projects-container {
+    margin-top: 12rem;
+    margin-left: 20rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header-container {
+    align-items: center;
+  }
+  .color-container {
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  .language-container {
+    margin-top: 2rem;
+    margin-left: 45rem;
+  }
+  .aboutme-container {
+    margin-right: 0;
+  }
+  .technologies-container {
+    margin-left: 0;
+  }
+  .text {
+    font-size: 96px;
+    font-weight: 700;
+  }
+  .aboutme-header {
+    font-size: 48px;
+  }
+  .aboutme-text {
+    font-size: 20px;
+    width: 36rem;
+  }
+  .photoMe {
+    width: 28rem;
+    height: 28rem;
+  }
+  .tech-container-white {
+    margin-left: 3rem;
+    width: 17rem;
+  }
+  .tech-container-black {
+    margin-left: 3rem;
+    width: 17rem;
+  }
+  .tech-container-yellow {
+    margin-left: 3rem;
+    width: 17rem;
+  }
+  .technologies-container {
+    margin-top: 10rem;
+  }
+  .technologies-text {
+    margin-left: 5rem;
+  }
+  .techIcon {
+    width: 4rem;
+    height: 4rem;
+  }
+  .tech-icon-container {
+    margin-top: 3rem;
+  }
+  .projects-container {
+    margin-top: 12rem;
+    margin-left: 20rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .color-container {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+  .language-container {
+    margin-left: 0;
+  }
+  .aboutme-container {
+    margin-right: 0;
+  }
+  .technologies-container {
+    margin-left: 0;
+  }
+  .projects-container {
+    margin-left: 0;
+  }
+  .text {
+    font-size: 96px;
+    font-weight: 700;
+  }
 }
