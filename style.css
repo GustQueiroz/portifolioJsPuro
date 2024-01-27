@@ -17,7 +17,7 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: 10px;
+  width: 1rem;
 }
 
 body::-webkit-scrollbar-track {
@@ -45,7 +45,7 @@ body.yellow {
 }
 .color-container {
   width: 150px;
-  margin-left: 8px;
+  margin-left: 1rem;
 }
 .color-theme-text {
   font-size: 20px;
@@ -57,7 +57,7 @@ body.yellow {
 .color-icons {
   padding: 5px;
   cursor: pointer;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 .language-text {
   font-size: 16px;
@@ -75,7 +75,7 @@ body.yellow {
   cursor: pointer;
 }
 .language-container {
-  margin-left: 1650px;
+  margin-left: 104rem;
   width: 50px;
 }
 
@@ -96,11 +96,11 @@ body.yellow {
   display: flex;
 }
 .icon {
-  padding: 15px;
+  padding: 1rem;
   cursor: pointer;
 }
 .icon:hover {
-  margin-bottom: 30px;
+  margin-bottom: 1.5rem;
 }
 
 .text {
@@ -108,16 +108,16 @@ body.yellow {
   font-weight: 700;
 }
 .first {
-  margin-top: 300px;
+  margin-top: 19rem;
   height: 5px;
 }
 .aboutme-container {
-  margin-top: 250px;
+  margin-top: 15rem;
   cursor: default;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 100px;
+  margin-right: 6rem;
 }
 .aboutme-text-container {
   display: flex;
@@ -125,41 +125,41 @@ body.yellow {
   align-items: center;
 }
 .aboutme-header {
-  height: 20px;
+  height: 1rem;
   font-size: 64px;
   font-weight: 800;
 }
 .aboutme-text {
   font-size: 32px;
   font-weight: 700;
-  width: 760px;
+  width: 48rem;
   text-align: center;
 }
 .photoMe {
   margin-right: 70px;
-  width: 600px;
-  height: 600px;
+  width: 38rem;
+  height: 38rem;
 }
 .technologies-container {
   width: 100vh;
-  margin-left: 250px;
-  margin-top: 250px;
+  margin-left: 17rem;
+  margin-top: 16rem;
   display: flex;
   flex-direction: column;
   align-items: start;
 }
 
 .technologies-text {
-  width: 100vh;
-  margin-left: 280px;
+  width: 100%;
+  margin-left: 17rem;
   font-size: 64px;
 }
 
 .techIcon {
   display: flex;
   align-items: center;
-  width: 100px;
-  height: 100px;
+  width: 6rem;
+  height: 6rem;
 }
 
 .tech-icon-container {
@@ -169,19 +169,19 @@ body.yellow {
 }
 
 .techText {
-  margin-right: 20px;
+  margin-right: 1rem;
   color: white;
-  margin-left: 20px;
+  margin-left: 1rem;
 }
 .techText-yellow {
-  margin-right: 20px;
+  margin-right: 1rem;
   color: #d6cf2b;
-  margin-left: 20px;
+  margin-left: 1rem;
 }
 .techText-black {
-  margin-right: 20px;
+  margin-right: 1rem;
   color: #303030;
-  margin-left: 20px;
+  margin-left: 1rem;
 }
 
 .tech-container-white {
@@ -191,8 +191,8 @@ body.yellow {
   justify-content: center;
   align-items: center;
   display: flex;
-  width: 400px;
-  height: 140px;
+  width: 24rem;
+  height: 9rem;
 }
 .tech-container-black {
   margin-left: 50px;
@@ -201,8 +201,8 @@ body.yellow {
   justify-content: center;
   align-items: center;
   display: flex;
-  width: 400px;
-  height: 140px;
+  width: 24rem;
+  height: 9rem;
 }
 .tech-container-yellow {
   margin-left: 50px;
@@ -211,13 +211,13 @@ body.yellow {
   justify-content: center;
   align-items: center;
   display: flex;
-  width: 400px;
-  height: 140px;
+  width: 24rem;
+  height: 9rem;
 }
 .projects-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 300px;
-  margin-left: 550px;
+  margin-top: 16rem;
+  margin-left: 30rem;
 }
